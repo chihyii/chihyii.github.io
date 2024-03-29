@@ -45,7 +45,7 @@ function draw() {
     ndx1 = ((r1 - r2) * dx1 + 2 * r2 * dx2) / (r1 + r2);
     ndx2 = ((r2 - r1) * dx2 + 2 * r1 * dx1) / (r1 + r2);
     ndy1 = ((r1 - r2) * dy1 + 2 * r2 * dy2) / (r1 + r2);
-    ndy2 = ((r2 - r1) * dy2 + 2 * r1 * dx1) / (r1 + r2);
+    ndy2 = ((r2 - r1) * dy2 + 2 * r1 * dy1) / (r1 + r2);
     [dx1, dx2, dy1, dy2] = [ndx1, ndx2, ndy1, ndy2]
     color1 = "#" + Math.floor(Math.random() * 16777215).toString(16);
     color2 = "#" + Math.floor(Math.random() * 16777215).toString(16);
