@@ -1,8 +1,8 @@
 // 定義變數
 let canvas = document.getElementById("myCanvas");
 let ctx = canvas.getContext("2d");
-let x1 = 0, y1 = 0, dx1 = 5, dy1 = 5, r1 = 80, color1 = "#81C0C0";
-let x2 = canvas.width, y2 = 0, dx2 = -5, dy2 = 5, r2 = 50, color2 = "#AAAAFF"
+let x1 = 0, y1 = 0, dx1 = 5, dy1 = 5, r1 = 70, color1 = "#81C0C0";
+let x2 = canvas.width, y2 = 0, dx2 = 10, dy2 = 5, r2 = 80, color2 = "#AAAAFF"
 let ndx1 = 0, ndy1 = 0, ndx2 = 0, ndy2 = 0
 // 畫圓形
 function drawBall(x, y, r, color) {
